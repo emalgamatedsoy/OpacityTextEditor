@@ -52,5 +52,6 @@ namespace TextEditor
             settings.ShowDialog();
             Opacity = Settings.Opacity;
         }
+
     }
 }

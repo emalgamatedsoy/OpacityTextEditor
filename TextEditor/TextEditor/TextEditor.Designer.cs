@@ -77,12 +77,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(434, 332);
             this.Controls.Add(this.SettingsBtn);
             this.Controls.Add(this.SaveBtn);
             this.Controls.Add(this.LoadBtn);
             this.Controls.Add(this.RichTextEditor);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "TextEditor";
             this.Text = "Text Editor";
             this.Load += new System.EventHandler(this.Form1_Load);
