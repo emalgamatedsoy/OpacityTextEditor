@@ -28,6 +28,8 @@ namespace TextEditor
             try
             {
                 SaveFileDialog s = new SaveFileDialog();
+                s.Filter = "Text File (*.txt)|*.txt";
+                s.DefaultExt = "txt";
                 if (s.ShowDialog() == DialogResult.OK)
                 {
                     if (s.FileName.Contains(".txt"))
