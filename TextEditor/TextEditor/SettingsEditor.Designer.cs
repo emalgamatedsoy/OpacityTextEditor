@@ -70,6 +70,7 @@
             this.Controls.Add(this.OKBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.OpacityBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SettingsEditor";
             this.Text = "Settings";
