@@ -22,8 +22,12 @@ The text editor can only handle <b>2^32 characters</b> before an overflow occurs
 For the purpose of writing this program, I wouldn't expect someone to load a text file with more than 2.4 billion characters.
  </li>
  <li>
+   Adding a temp-file for each time there is a load or a save such that text document backup is made.
+ </li>
+ <li>
   there is no documentation on this program aside from this markdown file.
  </li>
+ 
 </ul>
 <br>
 <br>
