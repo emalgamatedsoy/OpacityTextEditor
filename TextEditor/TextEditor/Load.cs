@@ -47,6 +47,8 @@ namespace TextEditor
                     }
 
                 }
+                else
+                    loadState = false;
                 
                 
             }
