@@ -1,7 +1,6 @@
 # OpacityTextEditor
 
 This is a small text editor that I have created in order to allow for the editing window to become opaque, such that someone who is taking
-<br>
 notes will be able to write while looking through the editor.
 <br>
 <br>
