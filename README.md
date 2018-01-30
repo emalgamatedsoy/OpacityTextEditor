@@ -7,20 +7,29 @@ notes will be able to write while looking through the editor.
 This program is designed for someone who is running a windows computer and needs to observe documents while taking notes at the same time.
 <br>
 <br>
+For the technicalities, this program was written with the .NET framework (4.6.1) and written in c#.
+<br>
+<br>
+I used visual studio 2017 to write this program.
+<br>
+<br>
+<br>
 Currently associated with this project, there needs to be a few changes..
 <br>
-<br>
-<br>
-<br>
+<ul>
+ <li>
 The text editor can only handle <b>2^32 characters</b> before an overflow occurs.
-<br>
 For the purpose of writing this program, I wouldn't expect someone to load a text file with more than 2.4 billion characters.
+ </li>
+ <li>
+  there is no documentation on this program aside from this markdown file.
+ </li>
+</ul>
 <br>
 <br>
-Also, there is no documentation on this program aside from this markdown file.
+any contribution would be appreciated by anyone who wishes to do so; I'll examine pull requests on the dev branch.
 <br>
+note:
 <br>
-any contribution would be appreciated by anyone who wishes to do so.
-<br>
-This is freeware, and not intended to be sold, nor re-sold.
+<b>This is freeware, and not intended to be sold, nor re-sold.</b>
 
