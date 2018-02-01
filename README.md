@@ -30,7 +30,9 @@ For the purpose of writing this program, I wouldn't expect someone to load a tex
  <li>
   inserting a "find" function, which will allow the string to be parsed to find occurences of text; highlighting text also.
  </li>
- 
+ <li>
+  create label in main form that displays the file handle of the loaded file. (should be separate from main class)
+ </li>
 </ul>
 <br>
 <br>
