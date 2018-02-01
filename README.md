@@ -27,6 +27,9 @@ For the purpose of writing this program, I wouldn't expect someone to load a tex
  <li>
   there is no documentation on this program aside from this markdown file.
  </li>
+ <li>
+  inserting a "find" function, which will allow the string to be parsed to find occurences of text; highlighting text also.
+ </li>
  
 </ul>
 <br>
