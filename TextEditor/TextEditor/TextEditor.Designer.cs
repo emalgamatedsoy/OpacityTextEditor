@@ -37,15 +37,16 @@
             // 
             // RichTextEditor
             // 
+            this.RichTextEditor.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RichTextEditor.Location = new System.Drawing.Point(13, 13);
             this.RichTextEditor.Name = "RichTextEditor";
-            this.RichTextEditor.Size = new System.Drawing.Size(409, 278);
+            this.RichTextEditor.Size = new System.Drawing.Size(502, 313);
             this.RichTextEditor.TabIndex = 0;
             this.RichTextEditor.Text = "";
             // 
             // LoadBtn
             // 
-            this.LoadBtn.Location = new System.Drawing.Point(12, 297);
+            this.LoadBtn.Location = new System.Drawing.Point(12, 332);
             this.LoadBtn.Name = "LoadBtn";
             this.LoadBtn.Size = new System.Drawing.Size(45, 23);
             this.LoadBtn.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.Location = new System.Drawing.Point(63, 297);
+            this.SaveBtn.Location = new System.Drawing.Point(63, 332);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(45, 23);
             this.SaveBtn.TabIndex = 2;
@@ -65,7 +66,7 @@
             // 
             // SettingsBtn
             // 
-            this.SettingsBtn.Location = new System.Drawing.Point(365, 297);
+            this.SettingsBtn.Location = new System.Drawing.Point(458, 332);
             this.SettingsBtn.Name = "SettingsBtn";
             this.SettingsBtn.Size = new System.Drawing.Size(57, 23);
             this.SettingsBtn.TabIndex = 3;
@@ -78,7 +79,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(434, 332);
+            this.ClientSize = new System.Drawing.Size(527, 367);
             this.Controls.Add(this.SettingsBtn);
             this.Controls.Add(this.SaveBtn);
             this.Controls.Add(this.LoadBtn);
