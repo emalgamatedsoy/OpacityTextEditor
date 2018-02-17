@@ -2,10 +2,10 @@ c:\users\patrick\source\repos\TextEditor\TextEditor\bin\Debug\TextEditor.exe.con
 c:\users\patrick\source\repos\TextEditor\TextEditor\bin\Debug\TextEditor.exe
 c:\users\patrick\source\repos\TextEditor\TextEditor\bin\Debug\TextEditor.pdb
 c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.csprojResolveAssemblyReference.cache
-c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.TextEditor.resources
 c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
 c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
 c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.CoreCompileInputs.cache
 c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.exe
 c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
-c:\users\patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.SettingsEditor.resources
+C:\Users\Patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.Settings.SettingsEditor.resources
+C:\Users\Patrick\source\repos\TextEditor\TextEditor\obj\Debug\TextEditor.Main.TextEditor.resources
