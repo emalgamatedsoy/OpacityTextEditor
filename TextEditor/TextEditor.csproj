@@ -49,28 +49,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Settings\Settings.cs" />
-    <Compile Include="ModelEditors\SettingsEditor.cs">
+    <Compile Include="Settings\SettingsEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModelEditors\SettingsEditor.Designer.cs">
+    <Compile Include="Settings\SettingsEditor.Designer.cs">
       <DependentUpon>SettingsEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="LoadSave\Save.cs" />
+    <Compile Include="ModelEditors\EditorForm.cs" />
     <Compile Include="LoadSave\Load.cs" />
     <Compile Include="LoadSave\LSStateInterface.cs" />
-    <Compile Include="ModelEditors\TextEditor.cs">
+    <Compile Include="MainProgram\TextEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModelEditors\TextEditor.Designer.cs">
+    <Compile Include="MainProgram\TextEditor.Designer.cs">
       <DependentUpon>TextEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="MainProgram\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ModelEditors\TextInstance.cs" />
-    <EmbeddedResource Include="ModelEditors\SettingsEditor.resx">
+    <EmbeddedResource Include="Settings\SettingsEditor.resx">
       <DependentUpon>SettingsEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModelEditors\TextEditor.resx">
+    <EmbeddedResource Include="MainProgram\TextEditor.resx">
       <DependentUpon>TextEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
