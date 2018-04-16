@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TextEditor.ModelEditors
+namespace TextEditor.ModelObj
 {
-    abstract class TextInstance
+    public abstract class TextEditorModObj
     {
-        public static String text;
+       public static String text;
     }
 }

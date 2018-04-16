@@ -12,20 +12,25 @@ namespace TextEditor.Settings
 {
     public partial class SettingsEditor : Form
     {
-        Settings setin;
+        Settings setting;
+
+        /// <summary>
+        /// create the settings editor.
+        /// and initialize the new setting.
+        /// </summary>
         public SettingsEditor()
         {
             InitializeComponent();
-            setin = new Settings();
+            setting = new Settings();
         }
 
         private void OKBtn_Click(object sender, EventArgs e)
         {
-            setin.SetOpacity(((double)OpacityBar.Value) / 10);
+            setting.SetOpacity(((double)OpacityBar.Value) / 10);
             Close();
         }
 
-        public double GetSettingOpacity() => setin.GetOpacity();
+        public double GetSettingOpacity() => setting.GetOpacity();
 
     }
 }

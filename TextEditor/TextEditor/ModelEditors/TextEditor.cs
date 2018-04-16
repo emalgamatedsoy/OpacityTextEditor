@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TextEditor.LoadSave;
 using TextEditor.Settings;
-using TextEditor.ModelEditors;
+using TextEditor.ModelObj;
 
 namespace TextEditor.Main
 {
@@ -17,27 +17,30 @@ namespace TextEditor.Main
     {
         private Load load;
         private Save save;
+        /// <summary>
+        /// Creates object type TextEditor
+        /// it is of object-type form.
+        /// </summary>
         public TextEditor()
         {
             InitializeComponent();
-            CreateEditorForm();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        /// <summary>
+        /// on form load, execute. Create load and save object.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TextEditorFormLoad(object sender, EventArgs e)
         {
             load = new Load();
             save = new Save();
         }
 
-        private void CreateEditorForm()
-        {
-            
-        }
-
-        private void UpdateEditorForm()
-        {
-        }
-
+        /// <summary>
+        /// use the save object, and save the string from
+        /// the rich text editor from the save function in the save object.
+        /// </summary>
         private void SaveTextDoc()
         {
             TextEditorModObj.text = RichTextEditor.Text;
@@ -49,6 +52,11 @@ namespace TextEditor.Main
 
         }
 
+        /// <summary>
+        /// load the text document.
+        /// if the load state is good, then load the text..
+        /// load the text file into the rich text editor.
+        /// </summary>
         private void LoadTextDoc()
         {
             load.LoadTextFile();
@@ -58,12 +66,23 @@ namespace TextEditor.Main
             RichTextEditor.Text = TextEditorModObj.text;
         }
 
-
+        /// <summary>
+        /// when the save button is click, 
+        /// call a composite function to SaveTextDoc()
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SaveBtn_Click(object sender, EventArgs e)
         {
             SaveTextDoc();
         }
 
+        /// <summary>
+        /// when the load button is clicked,
+        /// call a composite fucntion to LoadTextDoc()
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void LoadBtn_Click(object sender, EventArgs e)
         {
             LoadTextDoc();
@@ -77,6 +96,11 @@ namespace TextEditor.Main
 
         }
         
+        /// <summary>
+        /// On key down event (ctrl + o) && (ctrl + s)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TextEditor_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.O && e.Modifiers == Keys.Control)

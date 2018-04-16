@@ -90,7 +90,7 @@
             this.MaximizeBox = false;
             this.Name = "TextEditor";
             this.Text = "Text Editor";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.TextEditorFormLoad);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextEditor_KeyDown);
             this.ResumeLayout(false);
 

@@ -19,3 +19,13 @@ M:\ClassApps\src\OpacityTextEditor-dev\OpacityTextEditor-dev\TextEditor\TextEdit
 M:\ClassApps\src\OpacityTextEditor-dev\OpacityTextEditor-dev\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
 M:\ClassApps\src\OpacityTextEditor-dev\OpacityTextEditor-dev\TextEditor\TextEditor\obj\Debug\TextEditor.exe
 M:\ClassApps\src\OpacityTextEditor-dev\OpacityTextEditor-dev\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.csprojResolveAssemblyReference.cache
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.Settings.SettingsEditor.resources
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.Main.TextEditor.resources
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.exe
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\bin\Debug\TextEditor.exe.config
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\bin\Debug\TextEditor.exe
+M:\ClassApps\src\OpacityTextEditor\TextEditor\TextEditor\bin\Debug\TextEditor.pdb
